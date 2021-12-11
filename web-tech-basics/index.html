@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        img {
+            width: 200px;
+        }
+        </style>
+    </head>
+    <body>
+        <p>This is the start</p>
+        <img src="jspsych-logo.jpg" alt="">
+    </body>
+    <script>
+        document.querySelector('img').addEventListener('click', function(){
+            document.querySelector('body').innerHTML = '<p>This is the end</p>'
+        })
+    </script>
+</html>
